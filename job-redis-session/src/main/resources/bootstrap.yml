@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: service-redis-session
+  cloud:
+    config:
+     discovery:
+       enabled: true
+       service-id: job-config
+     label: master
+     profile: dev

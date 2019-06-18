@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/job-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/job-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/job-eureka-client1/pom.xml" />
+        <option value="$PROJECT_DIR$/job-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/job-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/job-config/pom.xml" />
+        <option value="$PROJECT_DIR$/job-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/job-redis-session/pom.xml" />
+        <option value="$PROJECT_DIR$/job-client2/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/comnrjobapi/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+</project>

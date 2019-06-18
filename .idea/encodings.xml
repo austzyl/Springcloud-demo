@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/job-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/job-client2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/job-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/job-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/job-eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/job-eureka-client1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/job-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/job-redis-session" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/job-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/job-zuul" charset="UTF-8" />
+  </component>
+</project>

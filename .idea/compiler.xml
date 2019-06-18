@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="job-client2" />
+        <module name="job-config" />
+        <module name="job-eureka" />
+        <module name="job-eureka-client" />
+        <module name="job-eureka-client1" />
+        <module name="job-feign" />
+        <module name="job-redis-session" />
+        <module name="job-ribbon" />
+        <module name="job-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="job-api" target="1.8" />
+      <module name="job-client2" target="1.8" />
+      <module name="job-config" target="1.8" />
+      <module name="job-eureka" target="1.8" />
+      <module name="job-eureka-client" target="1.8" />
+      <module name="job-eureka-client1" target="1.8" />
+      <module name="job-feign" target="1.8" />
+      <module name="job-redis-session" target="1.8" />
+      <module name="job-ribbon" target="1.8" />
+      <module name="job-zuul" target="1.8" />
+      <module name="jobmain" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

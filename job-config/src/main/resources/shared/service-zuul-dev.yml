@@ -1,0 +1,29 @@
+server:
+  port: 1100
+zuul:
+  ignoredServices: '*' #忽略所有未配置的service
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+  routes:
+    job-feign-service:
+      path: /feign/**
+      serviceId: job-feign
+    job-redis-session-service:
+      path: /user-session/**
+      serviceId: service-redis-session
+      sensitiveHeaders: "*"
+hystrix: #hystrix配置
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutIcommand:nMilliseconds: 2500
+ribbon: #ribbon负载均衡参数配置
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

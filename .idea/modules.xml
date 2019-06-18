@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/job-client2/job-client2.iml" filepath="$PROJECT_DIR$/job-client2/job-client2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job-config/job-config.iml" filepath="$PROJECT_DIR$/job-config/job-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job-eureka/job-eureka.iml" filepath="$PROJECT_DIR$/job-eureka/job-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job-eureka-client/job-eureka-client.iml" filepath="$PROJECT_DIR$/job-eureka-client/job-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job-eureka-client1/job-eureka-client1.iml" filepath="$PROJECT_DIR$/job-eureka-client1/job-eureka-client1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job-feign/job-feign.iml" filepath="$PROJECT_DIR$/job-feign/job-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job-redis-session/job-redis-session.iml" filepath="$PROJECT_DIR$/job-redis-session/job-redis-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job-ribbon/job-ribbon.iml" filepath="$PROJECT_DIR$/job-ribbon/job-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job-zuul/job-zuul.iml" filepath="$PROJECT_DIR$/job-zuul/job-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jobmain.iml" filepath="$PROJECT_DIR$/jobmain.iml" />
+    </modules>
+  </component>
+</project>

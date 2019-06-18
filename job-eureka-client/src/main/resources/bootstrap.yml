@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: service-eureka-client
+  cloud:
+    service-registry:
+      auto-registration:
+        enabled: true #false不将服务注册到eureka
+    config:
+      discovery:
+        enabled: true
+        service-id: job-config
+      profile: dev
+      label: master
+      name: ${spring.application.name},aaa #读取配置中心多配置文件
